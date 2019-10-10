@@ -64,8 +64,8 @@
      
       <repositories>
         <repository>
-            <id>nexus-test</id>
-            <url>http://localhost:8081/repository/nexus-test/</url>
+            <id>nexus-snapshot</id>
+            <url>http://localhost:8081/repository/nexus-snapshot/</url>
             <snapshots>
                 <enabled>true</enabled>
             </snapshots>
@@ -73,8 +73,8 @@
     </repositories>
     <distributionManagement>
         <snapshotRepository>
-            <id>nexus-test</id>
-            <url>http://localhost:8081/repository/nexus-test/</url>
+            <id>nexus-snapshot</id>
+            <url>http://localhost:8081/repository/nexus-snapshot/</url>
         </snapshotRepository>
     </distributionManagement>
      
