@@ -7,12 +7,12 @@
         <server>
             <id>nexus-snapshot</id>
             <username>admin</username>
-            <password>your-pass</password>
+            <password>gateau</password>
         </server>
         <server>
             <id>nexus-release</id>
             <username>admin</username>
-            <password>your-pass</password>
+            <password>gateau</password>
         </server>
     </servers>
 
