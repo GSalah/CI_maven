@@ -77,5 +77,14 @@
             <url>http://localhost:8081/repository/nexus-snapshot/</url>
         </snapshotRepository>
     </distributionManagement>
+    <scm>
+
+<connection>scm:git:https://github.com/GSalah/CI_maven.git</connection>
+
+<url>https://github.com/GSalah/CI_maven</url>
+
+<developerConnection>scm:git:https://github.com/GSalah/CI_maven.git</developerConnection>
+
+</scm>
      
 </project>
