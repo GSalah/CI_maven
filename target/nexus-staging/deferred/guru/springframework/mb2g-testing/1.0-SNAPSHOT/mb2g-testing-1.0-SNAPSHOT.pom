@@ -77,5 +77,6 @@
             <url>http://localhost:8081/repository/nexus-snapshot/</url>
         </snapshotRepository>
     </distributionManagement>
+
      
 </project>

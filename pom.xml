@@ -26,7 +26,7 @@
       <skip>true</skip>
    </configuration>
 </plugin>
-<plugin>
+<!--<plugin>
    <groupId>org.sonatype.plugins</groupId>
    <artifactId>nexus-staging-maven-plugin</artifactId>
    <version>1.3</version>
@@ -44,7 +44,7 @@
       <nexusUrl>http://localhost:8081/nexus/</nexusUrl>
       <skipStaging>true</skipStaging>
    </configuration>
-</plugin>
+</plugin>-->
         </plugins>
 </build>
 
@@ -77,14 +77,6 @@
             <url>http://localhost:8081/repository/nexus-snapshot/</url>
         </snapshotRepository>
     </distributionManagement>
-    <scm>
 
-<connection>scm:git:https://github.com/GSalah/CI_maven.git</connection>
-
-<url>https://github.com/GSalah/CI_maven</url>
-
-<developerConnection>scm:git:https://github.com/GSalah/CI_maven.git</developerConnection>
-
-</scm>
      
 </project>
